@@ -18,7 +18,7 @@
 " <leader>gm <newname>
 "   Do a ``git move`` on the current file and rename it to <newname>.
 "
-" <leader>gr
+" <leader>grm
 "   Do a ``git remove`` on the current file.
 "
 " <leader>gbl
@@ -75,7 +75,7 @@ nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gd :Gdiff<cr>
 nnoremap <leader>gci :Gcommit<cr>
 nnoremap <leader>gm :Gmove
-nnoremap <leader>gr :Gremove<cr>
+nnoremap <leader>grm :Gremove<cr>
 nnoremap <leader>gbl :Gblame<cr>
 nnoremap <leader>gl :Glog<cr>
 nnoremap <leader>gg :Ggrep
