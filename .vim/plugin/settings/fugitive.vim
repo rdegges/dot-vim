@@ -7,6 +7,11 @@
 "   Display ``git status`` output in an interactive split. Press - to add /
 "   reset a file's changes, or p to add / reset --patch that mofo.
 "
+" <leader>gd
+"   Bring up the staged version of the file side by side with the working tree
+"   version and use Vim's diff handling capabilities to stage a subset of the
+"   file's changes.
+"
 " <leader>gci
 "   Display ``git commit`` output in an interactive split.
 "
@@ -67,6 +72,7 @@
 
 
 nnoremap <leader>gs :Gstatus<cr>
+nnoremap <leader>gd :Gdiff<cr>
 nnoremap <leader>gci :Gcommit<cr>
 nnoremap <leader>gm :Gmove
 nnoremap <leader>gr :Gremove<cr>
