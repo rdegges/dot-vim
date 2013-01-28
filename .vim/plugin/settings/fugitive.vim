@@ -1,6 +1,6 @@
 " fugitive.vim
 " ============
-" 
+"
 " Make Git commands simple and intuitive.
 "
 " <leader>gs
@@ -68,13 +68,13 @@
 
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gci :Gcommit<cr>
-nnoremap <leader>gm :Gmove 
+nnoremap <leader>gm :Gmove
 nnoremap <leader>gr :Gremove<cr>
 nnoremap <leader>gbl :Gblame<cr>
 nnoremap <leader>gl :Glog<cr>
-nnoremap <leader>gg :Ggrep 
+nnoremap <leader>gg :Ggrep
 nnoremap <leader>gr :Gread<cr>
 nnoremap <leader>gw :Gwrite<cr>
 nnoremap <leader>gbr :Gbrowse<cr>
-nnoremap <leader>g :Git 
+nnoremap <leader>g :Git
 nnoremap <leader>gp :Git push<cr>
