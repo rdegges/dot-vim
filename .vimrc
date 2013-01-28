@@ -24,7 +24,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/python.vim--Vasiliev'
 Bundle 'vim-scripts/django.vim'
 Bundle 'tpope/vim-markdown'
-Bundle 'mikewest/vimroom'
 
 " Reactivate file type support.
 filetype plugin indent on
