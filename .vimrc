@@ -20,7 +20,7 @@ call vundle#rc()
 "
 "   :BundleClean
 Bundle 'gmarik/vundle'
-Bundle 'vim-fugitive'
+Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/python.vim--Vasiliev'
 Bundle 'vim-scripts/django.vim'
 Bundle 'tpope/vim-markdown'
