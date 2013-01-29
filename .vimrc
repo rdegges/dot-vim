@@ -26,6 +26,7 @@ Bundle 'vim-scripts/django.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Raimondi/delimitMate'
+Bundle 'scrooloose/syntastic'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -138,3 +139,6 @@ let g:delimitMate_smart_quotes = 1
 let g:delimitMate_smart_matchpairs = 1
 let g:delimitMate_balance_matchpairs = 1
 let g:delimitMate_excluded_ft = "mail,help"
+
+" ========== delimitMate ==========
+
