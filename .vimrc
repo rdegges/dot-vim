@@ -143,6 +143,6 @@ let g:delimitMate_excluded_ft = "mail,help"
 
 " ========== vimroom ==========
 
-let g:vimroom_background = "black"
+let g:vimroom_ctermbackground = "black"
 let g:vimroom_width = 79
-nnoremap <leader>vr <Plug>VimroomToggle
+nnoremap <leader>V :VimroomToggle<cr>
