@@ -24,6 +24,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/python.vim--Vasiliev'
 Bundle 'vim-scripts/django.vim'
 Bundle 'tpope/vim-markdown'
+Bundle 'Shougo/neocomplcache'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -119,3 +120,10 @@ augroup reloadvim
     au!
     au BufWritePost .vimrc source $MYVIMRC
 augroup end
+
+" ========== neocomplcache ==========
+
+let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_smart_case = 1
+let g:neocomplcache_min_syntax_length = 3
+let g:neocomplcache_auto_completion_start_length = 3
