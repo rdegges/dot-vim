@@ -27,6 +27,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/syntastic'
+Bundle 'mikewest/vimroom'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -140,5 +141,8 @@ let g:delimitMate_smart_matchpairs = 1
 let g:delimitMate_balance_matchpairs = 1
 let g:delimitMate_excluded_ft = "mail,help"
 
-" ========== delimitMate ==========
+" ========== vimroom ==========
 
+let g:vimroom_background = black
+let g:vimroom_width = 79
+nnoremap <leader>vr <Plug>VimroomToggle
