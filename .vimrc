@@ -25,6 +25,7 @@ Bundle 'vim-scripts/python.vim--Vasiliev'
 Bundle 'vim-scripts/django.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'Shougo/neocomplcache'
+Bundle 'Raimondi/delimitMate'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -127,3 +128,13 @@ let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_smart_case = 1
 let g:neocomplcache_min_syntax_length = 3
 let g:neocomplcache_auto_completion_start_length = 3
+
+" ========== delimitMate ==========
+
+let g:delimitMate_autoclose = 1
+let g:delimitMate_expand_cr = 1
+let g:delimitMate_expand_space = 1
+let g:delimitMate_smart_quotes = 1
+let g:delimitMate_smart_matchpairs = 1
+let g:delimitMate_balance_matchpairs = 1
+let g:delimitMate_excluded_ft = "mail,help"
