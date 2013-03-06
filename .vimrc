@@ -28,6 +28,7 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/syntastic'
 Bundle 'mikewest/vimroom'
+Bundle 'airblade/vim-gitgutter'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -149,3 +150,6 @@ nnoremap <leader>V :VimroomToggle<cr>
 
 " ========== syntastic ==========
 let g:syntastic_python_checker_args = "--ignore=E251"
+
+" ========== vim-gitgutter ==========
+let g:gitgutter_enabled = 1
