@@ -149,7 +149,8 @@ let g:vimroom_width = 79
 nnoremap <leader>V :VimroomToggle<cr>
 
 " ========== syntastic ==========
-let g:syntastic_python_checker_args = "--ignore=E251,E128"
+let g:syntastic_check_on_open = 1
+let g:syntastic_python_flake8_post_args = "--ignore=E251,E128"
 
 " ========== vim-gitgutter ==========
 let g:gitgutter_enabled = 1
