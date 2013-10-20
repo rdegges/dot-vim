@@ -1,6 +1,17 @@
-# .vim
+# dot-vim
 
 My vim dotfiles.
+
+These are primarily optimized for my own personal usage, but feel free to use
+them for whatever you'd like.
+
+They're geared towards Python web development, and contain niceties which make
+writing code using the following tools much simpler:
+
+- Python
+- HTML
+- Javascript
+- Git
 
 
 ## Installation
