@@ -8,7 +8,7 @@ My vim dotfiles.
 The below commands will download the project, and install all Vim plugins and
 dependencies.
 
-**NOTE**: This assumes you already have `vim` installed on your operating
+**NOTE**: These instructions you already have `vim` installed on your operating
 system.
 
 ``` bash
