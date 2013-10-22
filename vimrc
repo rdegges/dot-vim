@@ -29,6 +29,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/syntastic'
 Bundle 'mikewest/vimroom'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'vim-scripts/matchit.zip'
 
 " Reactivate file type support.
 filetype plugin indent on
