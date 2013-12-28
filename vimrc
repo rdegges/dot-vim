@@ -30,6 +30,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'mikewest/vimroom'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-scripts/matchit.zip'
+Bundle 'jnwhiteh/vim-golang'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -150,8 +151,15 @@ let g:vimroom_width = 79
 nnoremap <leader>V :VimroomToggle<cr>
 
 " ========== syntastic ==========
+
 let g:syntastic_check_on_open = 1
 let g:syntastic_python_flake8_post_args = "--ignore=E251,E128"
 
 " ========== vim-gitgutter ==========
+
 let g:gitgutter_enabled = 1
+
+" ========== go.vim ==========
+set rtp+=~/.vim/bundle/vim-golang/
+
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
