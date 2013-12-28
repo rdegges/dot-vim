@@ -25,7 +25,7 @@ system.
 ``` bash
 $ git clone git@github.com:rdegges/dot-vim.git ~/.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
-$ cd ~/.vimrc
+$ cd ~/.vim
 $ git submodule init
 $ git submodule update
 $ vim +BundleInstall +qall
