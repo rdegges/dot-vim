@@ -31,6 +31,8 @@ Bundle 'mikewest/vimroom'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-scripts/matchit.zip'
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'digitaltoad/vim-jade'
 
 " Reactivate file type support.
 filetype plugin indent on
