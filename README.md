@@ -19,7 +19,7 @@ writing code using the following tools much simpler:
 The below commands will download the project, and install all Vim plugins and
 dependencies.
 
-**NOTE**: These instructions you already have `vim` installed on your operating
+**NOTE**: These instructions assume you already have `vim` installed on your operating
 system.
 
 ``` bash
