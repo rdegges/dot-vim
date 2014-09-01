@@ -159,6 +159,7 @@ nnoremap <leader>V :VimroomToggle<cr>
 
 let g:syntastic_check_on_open = 1
 let g:syntastic_python_flake8_post_args = "--ignore=E251,E128"
+let g:syntastic_javascript_checkers = ['jshint']
 
 " ========== vim-gitgutter ==========
 
