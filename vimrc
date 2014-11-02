@@ -36,6 +36,7 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'wavded/vim-stylus'
 Bundle 'mattn/emmet-vim'
 Bundle 'moll/vim-node'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 " Reactivate file type support.
 filetype plugin indent on
