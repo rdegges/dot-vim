@@ -30,7 +30,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'mikewest/vimroom'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-scripts/matchit.zip'
-Bundle 'jnwhiteh/vim-golang'
+Bundle 'fatih/vim-go'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'wavded/vim-stylus'
@@ -169,4 +169,7 @@ let g:gitgutter_enabled = 1
 " ========== go.vim ==========
 set rtp+=~/.vim/bundle/vim-golang/
 
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
+" ========== vim-go ==========
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
