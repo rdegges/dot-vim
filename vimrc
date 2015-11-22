@@ -37,6 +37,7 @@ Bundle 'wavded/vim-stylus'
 Bundle 'mattn/emmet-vim'
 Bundle 'moll/vim-node'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'othree/html5.vim'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -159,8 +160,8 @@ nnoremap <leader>V :VimroomToggle<cr>
 " ========== syntastic ==========
 
 let g:syntastic_check_on_open = 1
-let g:syntastic_python_flake8_post_args = "--ignore=E251,E128"
-let g:syntastic_javascript_checkers = ['jshint', 'jslint']
+let g:syntastic_python_flake8_post_args = "--ignore=E251,E128,E501"
+"let g:syntastic_javascript_checkers = ['eslint']
 
 " ========== vim-gitgutter ==========
 
@@ -173,3 +174,9 @@ set rtp+=~/.vim/bundle/vim-golang/
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
+
+" ========== emmet ==========
+let g:user_emmet_install_global = 1
+let g:user_emmet_mode='a'
+let g:user_emmet_leader_key='<C-e>'
+
