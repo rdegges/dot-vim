@@ -38,6 +38,7 @@ Bundle 'mattn/emmet-vim'
 Bundle 'moll/vim-node'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'othree/html5.vim'
+Bundle 'msanders/snipmate.vim'
 
 " Reactivate file type support.
 filetype plugin indent on
