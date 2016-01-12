@@ -38,7 +38,8 @@ Bundle 'mattn/emmet-vim'
 Bundle 'moll/vim-node'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'othree/html5.vim'
-Bundle 'msanders/snipmate.vim'
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
 
 " Reactivate file type support.
 filetype plugin indent on
@@ -181,3 +182,7 @@ let g:user_emmet_install_global = 1
 let g:user_emmet_mode='a'
 let g:user_emmet_leader_key='<C-e>'
 
+" ========== utilsnips ==========
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
