@@ -8,39 +8,41 @@ set nocompatible
 filetype off
 
 " This loads all the plugins in ~/.vim/bundle.
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Install and manage all our Vim scripts using Vundle. To install (or update)
 " all these scripts at once, run:
 "
-"   :BundleInstall
+"   :PluginInstall
 "
 " To remove unused scripts, run:
 "
-"   :BundleClean
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'vim-scripts/python.vim--Vasiliev'
-Bundle 'vim-scripts/django.vim'
-Bundle 'tpope/vim-markdown'
-Bundle 'Shougo/neocomplcache'
-Bundle 'Raimondi/delimitMate'
-Bundle 'scrooloose/syntastic'
-Bundle 'mikewest/vimroom'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'vim-scripts/matchit.zip'
-Bundle 'fatih/vim-go'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'wavded/vim-stylus'
-Bundle 'mattn/emmet-vim'
-Bundle 'moll/vim-node'
-Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'othree/html5.vim'
-Bundle 'SirVer/ultisnips'
-Bundle 'honza/vim-snippets'
-Bundle 'gorodinskiy/vim-coloresque'
+"   :PluginClean
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-scripts/python.vim--Vasiliev'
+Plugin 'vim-scripts/django.vim'
+Plugin 'tpope/vim-markdown'
+Plugin 'Shougo/neocomplcache'
+Plugin 'Raimondi/delimitMate'
+Plugin 'scrooloose/syntastic'
+Plugin 'mikewest/vimroom'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'fatih/vim-go'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'wavded/vim-stylus'
+Plugin 'mattn/emmet-vim'
+Plugin 'moll/vim-node'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'othree/html5.vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+Plugin 'gorodinskiy/vim-coloresque'
+
+call vundle#end()
 
 " Reactivate file type support.
 filetype plugin indent on
