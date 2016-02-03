@@ -40,6 +40,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'othree/html5.vim'
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
+Bundle 'gorodinskiy/vim-coloresque'
 
 " Reactivate file type support.
 filetype plugin indent on
