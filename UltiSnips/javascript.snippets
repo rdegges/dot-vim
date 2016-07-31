@@ -2,6 +2,10 @@ snippet strict "Enable strict mode." b
 'use strict';
 endsnippet
 
+snippet req "Require a module." b
+let ${1} = require('${0:$1}');
+endsnippet
+
 snippet e "A minimal Express.js server." b
 var express = require('express');
 
