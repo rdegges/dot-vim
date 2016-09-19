@@ -1,0 +1,11 @@
+snippet sp "A minimal Stormpath example." b
+from stormpath.client import Client
+
+client = Client(id='${1:xxx}', secret='${2:xxx}')
+application = client.applications.search({'name': '${3:xxx}'})[0]
+endsnippet
+
+snippet main "A main function." b
+if __name__ == '__main__':
+    ${1}
+endsnippet
