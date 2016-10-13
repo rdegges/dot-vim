@@ -2,14 +2,16 @@ snippet strict "Enable strict mode." b
 "use strict";
 endsnippet
 
-snippet req "Require a module." b
+snippet r "Require a module." b
 const ${1} = require("${0:$1}");
 endsnippet
 
 snippet e "A minimal Express.js server." b
-var express = require("express");
+"use strict";
 
-var app = express();
+const express = require("express");
+
+let app = express();
 
 app.listen(process.env.PORT || 3000);
 endsnippet
