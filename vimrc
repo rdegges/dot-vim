@@ -41,6 +41,7 @@ Plugin 'othree/html5.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'gorodinskiy/vim-coloresque'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 
