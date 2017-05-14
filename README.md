@@ -23,10 +23,7 @@ dependencies.
 system.
 
 ``` bash
-$ git clone https://github.com/rdegges/dot-vim.git ~/.vim
+$ git clone --recursive https://github.com/rdegges/dot-vim.git ~/.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
-$ cd ~/.vim
-$ git submodule init
-$ git submodule update
 $ vim +PluginInstall +qall
 ```
