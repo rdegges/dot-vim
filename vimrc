@@ -27,7 +27,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Raimondi/delimitMate'
 Plugin 'scrooloose/syntastic'
-Plugin 'mikewest/vimroom'
+Plugin 'junegunn/goyo.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'fatih/vim-go'
@@ -157,11 +157,9 @@ let g:delimitMate_smart_matchpairs = 1
 let g:delimitMate_balance_matchpairs = 1
 let g:delimitMate_excluded_ft = "mail,help"
 
-" ========== vimroom ==========
+" ========== goyo ==========
 
-let g:vimroom_ctermbackground = "black"
-let g:vimroom_width = 79
-nnoremap <leader>V :VimroomToggle<cr>
+nnoremap <leader>W :Goyo<cr>
 
 " ========== syntastic ==========
 
