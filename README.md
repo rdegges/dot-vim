@@ -16,6 +16,11 @@ writing code using the following tools much simpler:
 
 ## Installation
 
+Before installing this repo, please follow the installation instructions for the
+YouCompleteMe project: https://github.com/Valloric/YouCompleteMe
+
+This is required for syntax tab completion.
+
 The below commands will download the project, and install all Vim plugins and
 dependencies.
 
