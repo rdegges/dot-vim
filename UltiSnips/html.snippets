@@ -1,0 +1,98 @@
+snippet widget "Basic widget app." b
+<html>
+  <head>
+    <title>Basic Okta Widget Page</title>
+
+    <!-- Okta Widget -->
+    <script src="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.6.0/js/okta-sign-in.min.js" type="text/javascript"></script>
+    <link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.6.0/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://ok1static.oktacdn.com/assets/js/sdk/okta-signin-widget/2.6.0/css/okta-theme.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <div id="sign-in-container"></div>
+
+    <script type="text/javascript">
+      var oktaSignIn = new OktaSignIn({
+        baseUrl: "${1}",
+        clientId: "${2}",
+        authParams: {
+          issuer: "${0:$1}/oauth2/default",
+          responseType: ["token", "id_token"],
+          display: "page"
+        }
+      });
+
+      if (oktaSignIn.token.hasTokensInUrl()) {
+        oktaSignIn.token.parseTokensFromUrl(
+          function success(res) {
+            var accessToken = res[0];
+            var idToken = res[1]
+
+            oktaSignIn.tokenManager.add("accessToken", accessToken);
+            oktaSignIn.tokenManager.add("idToken", idToken);
+
+            // Remove the tokens from the window location hash
+            window.location.hash = "";
+
+            console.log(idToken.claims.email + " has just logged in.");
+          },
+          function error(err) {
+            console.error("Uh oh. A login attempt failed: " + err);
+          }
+        );
+      } else {
+        oktaSignIn.session.get(function(res) {
+          if (res.status === "ACTIVE") {
+            return console.log(res.login + " was already logged in and has returned.");
+          }
+
+          // If we get here, it means we've got no user session, so we'll render
+          // our sign-in widget.
+          oktaSignIn.renderEl(
+            { el: "#sign-in-container" },
+            function success(res) {
+              // Nothing to do here. If the user isn't authenticated they'll be
+              // prompted to authenticate.
+            },
+            function error(err) {
+              console.error("Uh oh. Something bad happened: " + err);
+            }
+          );
+        });
+      }
+    </script>
+  </body>
+</html>
+endsnippet
+
+snippet r "Require a module." b
+const ${1} = require("${0:$1}");
+endsnippet
+
+snippet e "A minimal Express.js server." b
+"use strict";
+
+const express = require("express");
+
+let app = express();
+
+app.listen(process.env.PORT || 3000);
+endsnippet
+
+snippet esp "A minimal Stormpath server." b
+var express = require("express");
+var stormpath = require("express-stormpath");
+
+var app = express();
+
+app.use(stormpath.init(app));
+
+app.on("stormpath.ready", () => {
+  app.listen(process.env.PORT || 3000);
+});
+endsnippet
+
+snippet l "Log some text." b
+console.log("${1}");
+endsnippet
