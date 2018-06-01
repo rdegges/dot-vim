@@ -9,6 +9,9 @@
 " first, because it changes other options as a side effect.
 set nocompatible
 
+" Disable swap files
+set noswapfile
+
 " bootstrap plug installation
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
