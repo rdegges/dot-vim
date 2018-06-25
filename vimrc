@@ -43,6 +43,8 @@ Plug 'mattn/emmet-vim', { 'for': ['html', 'css'] }
 Plug 'rhysd/vim-grammarous'
 Plug 'ambv/black', { 'for': 'python' }
 Plug 'pangloss/vim-javascript'
+Plug 'moll/vim-node'
+Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 
