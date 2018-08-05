@@ -31,5 +31,5 @@ system.
 git clone --recursive https://github.com/rdegges/dot-vim.git ~/.vim
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 ```
