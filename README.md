@@ -28,8 +28,15 @@ dependencies.
 system.
 
 ``` bash
+sudo apt install golang-go
+npm i -g typescript
+export PYTHON_CONFIGURE_OPTS="--enable-shared"
+pyenv install 3.7.0 # or latest
 git clone --recursive https://github.com/rdegges/dot-vim.git ~/.vim
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
 ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/eslintrc.json ~/.eslintrc.json
 vim +PlugInstall +qall
+cd ~/.vim/plugged/YouCompleteMe
+python install.py --clang-completer --go-completer
 ```
