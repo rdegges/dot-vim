@@ -6,6 +6,12 @@ set nocompatible
 " Disable swap files
 set noswapfile
 
+" Enable syntax highlighting
+syntax on
+
+" Enable line numbers
+set nu
+
 
 """"" PLUGINS
 " Bootstrap the plugin manager
