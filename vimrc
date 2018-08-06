@@ -19,8 +19,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
 Plug 'lambdalisue/vim-pyenv', { 'for': 'python' }
+Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'Valloric/YouCompleteMe'
-"Plug 'vim-syntastic/syntastic'
+Plug 'vim-syntastic/syntastic'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'SirVer/ultisnips'
 Plug 'junegunn/seoul256.vim'
 Plug 'scrooloose/nerdtree'
