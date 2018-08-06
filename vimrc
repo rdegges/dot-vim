@@ -1,25 +1,20 @@
-" vim
-" ~~~
-"
-" These are highly configured for my environment. I do almost everything using
-" neovim: https://neovim.io/
-
-
-" Use Vim settings, rather then Vi settings (much better!). This must be
-" first, because it changes other options as a side effect.
+""""" GLOBAL SETTINGS
+" Use Vim settings, rather then Vi settings. Must be first, because it changes
+" other options as a side effect.
 set nocompatible
 
 " Disable swap files
 set noswapfile
 
-" bootstrap plug installation
+
+""""" PLUGINS
+" Bootstrap the plugin manager
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" ========== vim plugins ==========
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
