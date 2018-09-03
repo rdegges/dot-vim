@@ -28,6 +28,7 @@ dependencies.
 system.
 
 ```bash
+sudo apt install cmake
 sudo apt install golang-go
 sudo apt install python3-venv
 sudo apt install tidy
