@@ -55,6 +55,7 @@ git clone --recursive https://github.com/rdegges/dot-vim.git ~/.vim
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/eslintrc.json ~/.eslintrc.json
+mkdir -p ~/.config/proselint
 ln -s ~/.vim/proselintrc.json ~/.config/proselint/config
 
 vim +PlugInstall +qall
