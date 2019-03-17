@@ -55,7 +55,7 @@ PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install 3.7.0
 mkdir -p ~/.config/nvim
 mkdir -p ~/.config/proselint
 
-git clone --recursive git@github.com:rdegges/dot-vim.git
+git clone --recursive git@github.com:rdegges/dot-vim.git ~/.vim
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/eslintrc.json ~/.eslintrc.json
