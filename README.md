@@ -28,6 +28,9 @@ dependencies.
 system.
 
 ```bash
+# Used for code completion with COC
+sudo apt install default-jdk
+
 sudo apt install cmake
 sudo apt install golang-go
 sudo apt install python3-venv
