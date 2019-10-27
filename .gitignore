@@ -2,6 +2,7 @@
 autoload
 black
 bundle
+sessions
 spell
 plugged
 undodir
