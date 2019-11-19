@@ -6,6 +6,15 @@ endif
 
 call plug#begin('~/.vim/bundle')
 
+" awesome-vim-colorschemes
+" ~~~~~~~~~~~~~~~~~~~~~~~~
+"
+" A collection of awesome Vim colorschemes. Most can be used from the CLI & GUI
+" versions of (neo)vim.
+"
+" Reference: https://github.com/rafi/awesome-vim-colorschemes
+Plug 'rafi/awesome-vim-colorschemes'
+
 " Git wrapper
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
