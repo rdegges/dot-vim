@@ -32,6 +32,12 @@ Plug 'airblade/vim-gitgutter'
 " Reference: https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
 
+" vim-rhubarb
+" ~~~~~~~~~~~
+"
+" This plugin integrates Vim with GitHub.
+"
+" Reference: https://github.com/tpope/vim-rhubarb
 Plug 'tpope/vim-rhubarb'
 
 " Nerd Commenter
@@ -53,6 +59,21 @@ Plug 'SirVer/ultisnips'
 "
 " Reference: https://github.com/honza/vim-snippets
 Plug 'honza/vim-snippets'
+
+" Vim Surround
+Plug 'tpope/vim-surround'
+
+" Auto pairs
+Plug 'jiangmiao/auto-pairs'
+
+" Multiple Cursors
+Plug 'terryma/vim-multiple-cursors'
+
+" Indent guides
+Plug 'Yggdroot/indentLine'
+
+" COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "" Smart completion (to work with CoC)
 ""Plug 'zxqfl/tabnine-vim'
