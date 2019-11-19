@@ -46,7 +46,12 @@ Plug 'scrooloose/nerdcommenter'
 " Autosaving
 Plug '907th/vim-auto-save'
 
-" Code Snippets Engine
+" ultisnips
+" ~~~~~~~~~
+"
+" A code snippet engine for Vim.
+"
+" Reference: https://github.com/SirVer/ultisnips
 Plug 'SirVer/ultisnips'
 
 " vim-snippets
