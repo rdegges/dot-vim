@@ -15,8 +15,15 @@ call plug#begin('~/.vim/bundle')
 " Reference: https://github.com/rafi/awesome-vim-colorschemes
 Plug 'rafi/awesome-vim-colorschemes'
 
-" Git wrapper
+" vim-gitgutter
+" ~~~~~~~~~~~~~
+"
+" This plugin shows Git diff symbols in the gutter to make it easier to
+" visualize what has changed as you're working on a file.
+"
+" Reference: https://github.com/airblade/vim-gitgutter
 Plug 'airblade/vim-gitgutter'
+
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
