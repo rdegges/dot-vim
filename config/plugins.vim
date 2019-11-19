@@ -6,38 +6,14 @@ endif
 
 call plug#begin('~/.vim/bundle')
 
-" awesome-vim-colorschemes
-" ~~~~~~~~~~~~~~~~~~~~~~~~
-"
-" A collection of awesome Vim colorschemes. Most can be used from the CLI & GUI
-" versions of (neo)vim.
-"
-" Reference: https://github.com/rafi/awesome-vim-colorschemes
+" Themes
+" ~~~~~~
 Plug 'rafi/awesome-vim-colorschemes'
 
-" vim-gitgutter
-" ~~~~~~~~~~~~~
-"
-" This plugin shows Git diff symbols in the gutter to make it easier to
-" visualize what has changed as you're working on a file.
-"
-" Reference: https://github.com/airblade/vim-gitgutter
+" Git
+" ~~~
 Plug 'airblade/vim-gitgutter'
-
-" vim-fugitive
-" ~~~~~~~~~~~~
-"
-" A wrapper for Git.
-"
-" Reference: https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
-
-" vim-rhubarb
-" ~~~~~~~~~~~
-"
-" This plugin integrates Vim with GitHub.
-"
-" Reference: https://github.com/tpope/vim-rhubarb
 Plug 'tpope/vim-rhubarb'
 
 " Nerd Commenter
@@ -46,23 +22,9 @@ Plug 'scrooloose/nerdcommenter'
 " Autosaving
 Plug '907th/vim-auto-save'
 
-" ultisnips
-" ~~~~~~~~~
-"
-" A code snippet engine for Vim.
-"
-" Reference: https://github.com/SirVer/ultisnips
+" Code Snippets
+" ~~~~~~~~~~~~~
 Plug 'SirVer/ultisnips'
-
-" vim-snippets
-" ~~~~~~~~~~~~
-"
-" A collection of easy-to-use Vim snippets. These allow for quicker development
-" and are actively maintained by a number of contributors.
-"
-" These snippets are designed to work with the UltiSnips plugin: https://github.com/SirVer/ultisnips
-"
-" Reference: https://github.com/honza/vim-snippets
 Plug 'honza/vim-snippets'
 
 " Vim Surround
