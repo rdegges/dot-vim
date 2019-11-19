@@ -24,7 +24,14 @@ Plug 'rafi/awesome-vim-colorschemes'
 " Reference: https://github.com/airblade/vim-gitgutter
 Plug 'airblade/vim-gitgutter'
 
+" vim-fugitive
+" ~~~~~~~~~~~~
+"
+" A wrapper for Git.
+"
+" Reference: https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
+
 Plug 'tpope/vim-rhubarb'
 
 " Nerd Commenter
