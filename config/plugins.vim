@@ -29,24 +29,17 @@ Plug '907th/vim-auto-save'
 " Code Snippets Engine
 Plug 'SirVer/ultisnips'
 
-"" Snippets for ultisnips
-"Plug 'honza/vim-snippets'
+" vim-snippets
+" ~~~~~~~~~~~~
 "
-"" Vim Surround
-"Plug 'tpope/vim-surround'
+" A collection of easy-to-use Vim snippets. These allow for quicker development
+" and are actively maintained by a number of contributors.
 "
-"" Auto pairs
-""Plug 'jiangmiao/auto-pairs'
+" These snippets are designed to work with the UltiSnips plugin: https://github.com/SirVer/ultisnips
 "
-"" Multiple Cursors
-""Plug 'terryma/vim-multiple-cursors'
-"
-""" Indent guides
-""Plug 'Yggdroot/indentLine'
-"
-"" COC
-""Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"
+" Reference: https://github.com/honza/vim-snippets
+Plug 'honza/vim-snippets'
+
 "" Smart completion (to work with CoC)
 ""Plug 'zxqfl/tabnine-vim'
 "
