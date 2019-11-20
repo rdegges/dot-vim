@@ -27,6 +27,9 @@ Plug '907th/vim-auto-save'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
+" Syntax Highlighting
+Plug 'sheerun/vim-polyglot'
+
 " Vim Surround
 Plug 'tpope/vim-surround'
 
@@ -54,9 +57,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "
 "" Vim Javascript
 "Plug 'pangloss/vim-javascript'
-"
-"" Language Packs
-"Plug 'sheerun/vim-polyglot'
 "
 "" Status bar
 ""Plug 'vim-airline/vim-airline'
