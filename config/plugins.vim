@@ -28,7 +28,12 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 " Syntax Highlighting
+" ~~~~~~~~~~~~~~~~~~~
 Plug 'sheerun/vim-polyglot'
+
+" Icons
+" ~~~~~
+Plug 'ryanoasis/vim-devicons'
 
 " Vim Surround
 Plug 'tpope/vim-surround'
@@ -67,9 +72,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "
 "" Comfy scroll
 ""Plug 'yuttie/comfortable-motion.vim'
-"
-"" Add DevIcons
-"Plug 'ryanoasis/vim-devicons'
 "
 "" Tagbar
 "Plug 'liuchengxu/vista.vim'
