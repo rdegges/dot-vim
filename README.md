@@ -50,7 +50,6 @@ gem install sqlint
 gem install mdl
 
 pip install flake8
-pip install proselint
 pip install rstcheck
 
 PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install 3.7.0
@@ -62,7 +61,6 @@ git clone --recursive git@github.com:rdegges/dot-vim.git ~/.vim
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/eslintrc.json ~/.eslintrc.json
-ln -s ~/.vim/proselintrc.json ~/.config/proselint/config
 
 vim +PlugInstall +qall
 cd ~/.vim/plugged/YouCompleteMe
