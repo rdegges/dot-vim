@@ -51,12 +51,6 @@ let mapleader=","
 
 
 """"" PLUGIN CONFIG
-" YouCompleteMe
-let g:ycm_autoclose_preview_window_after_completion=1
-let g:ycm_seed_identifiers_with_syntax = 1
-let g:ycm_path_to_python_interpreter = glob('~/.pyenv/shims/python')
-let g:ycm_key_list_select_completion = ['<c-n>', '<Down>']
-
 " syntastic
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
